@@ -1,0 +1,39 @@
+@import url("reset.css");
+
+* {
+	background-color:rgb(173, 177, 177);
+}
+.header {
+	font-size: 20px;
+}
+.content-main__img img {
+	max-height: 250px;
+}
+.main {
+}
+.main__content {
+}
+.content-main {
+}
+.content-main__img {
+}
+.content-main__title {
+	color: rgb(10, 125, 226);
+}
+.content-main__title > p {
+	background-color: black;
+}
+.content-main__parametrs {
+
+}
+.content-main__link {
+}
+.footer {
+}
+.footer a {
+	text-decoration: none;
+}
+
+.footer__source {
+	text-decoration: underline !important;
+}
