@@ -1,0 +1,60 @@
+@import url("reset.css");
+
+* {
+	background-color:rgb(173, 177, 177);
+}
+.header {
+	font-size: 20px;
+}
+#header__title {
+	font-size: 24px;
+}
+.content-main__img img {
+	max-height: 250px;
+}
+.main {
+}
+.main__content {
+}
+.content-main {
+}
+.content-main__img {
+}
+.content-main__title {
+	color: rgb(10, 125, 226);
+}
+.content-main__title > p {
+	background-color: black;
+}
+.content-main__parametrs {
+
+}
+.content-main__link {
+}
+.content-main__solar-system {
+}
+.solar-system {
+}
+.content-main__solar-system.solar-system h5{
+	font-size: 24px;
+}
+[class*="__item"] {
+	color: rgb(1, 41, 41);
+}
+.solar-system__title {
+}
+.solar-system__planets {
+}
+.solar-system__items {
+}
+.solar-system__item {
+}
+.footer {
+}
+.footer a {
+	text-decoration: none;
+}
+
+.footer__source {
+	text-decoration: underline !important;
+}
