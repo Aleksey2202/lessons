@@ -1,0 +1,26 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+
+body {
+	font-family: "Inter", sans-serif ; 
+}
+.header {
+}
+.header__nav {
+}
+.nav-header {
+	background-color: rgb(32, 4, 4);
+}
+.nav-header__items {
+	text-align: center;
+	text-transform:capitalize;
+	font-size: 100px;
+}
+.nav-header__item {
+	color: rgba(27, 203, 226, 0.733);
+	text-shadow: 2px 2px 2px red;
+}
+.main {
+}
+.footer {
+}

@@ -1,0 +1,101 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Inter:wght@400;500;600;700&display=swap');
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-Light.woff2") format("woff2"),
+	 url("../fonts/Poppins-Light/.woff") format("woff") ;
+	 font-weight: 300;
+	 flex-direction: wrap;
+	 font-style: normal;
+}
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+	 url("../fonts/Poppins-Regular.woff") format("woff") ;
+	 font-weight: normal;
+	 flex-direction: wrap;
+	 font-style: normal;
+}
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+	 url("../fonts/Poppins-SemiBold.woff") format("woff") ;
+	 font-weight: 600;
+	 flex-direction: wrap;
+	 font-style: normal;
+}
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+	 url("../fonts/Poppins-Bold.woff") format("woff") ;
+	 font-weight: 700;
+	 flex-direction: wrap;
+	 font-style: normal;
+}
+
+
+body {
+	font-family: "Inter" , "Poppins", sans-serif;
+}
+
+.wrapper {
+	padding: 0 20px;
+}
+.header {
+}
+.main {
+}
+.main__container {
+	max-width: 830px;
+	
+	
+}
+.main__title {
+	color: #37393F;
+	font-family: "Poppins";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.27;
+}
+.main__text p {
+	color: #7D7D7D;
+	font-size: 18px;
+	line-height: 1.46;
+}
+.main__text p:not(:last-child) {
+	padding-bottom: 35px;
+}
+.main__items {
+	margin: 0px 0px 35px 16px;
+}
+.main__item {
+	color: #7D7D7D;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.46;
+	list-style: disc;
+}
+.main__trys{
+	margin: 0px 0px 35px 16px;
+	
+}
+.main__try {
+	color: #7D7D7D;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.46;
+	list-style:decimal-leading-zero;
+	
+}
+
+
+
+
+.footer {
+}
+.footer__back {
+	font-size: 30px;
+	color: rgba(27, 203, 226, 0.733);
+	text-shadow: 2px 2px 2px red;
+	text-decoration: overline;
+}
